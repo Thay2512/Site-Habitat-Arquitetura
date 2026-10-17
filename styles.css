@@ -1,0 +1,87 @@
+:root {
+  /* Cores Principais (Logo) */
+  --azul-principal: #224A86;
+  --amarelo-principal: #FBBB21;
+
+  /* Variações de Interação (Hover e Active) */
+  --azul-escuro: #183561;       /* Fundo de rodapé ou hover em links azuis */
+  --amarelo-hover: #D99F18;     /* Hover para botões de destaque/orçamento */
+
+  /* Fundos e Seções */
+  --fundo-pagina: #F8F9FA;      /* Off-white suave para o fundo do site */
+  --fundo-card: #FFFFFF;        /* Branco puro para destacar cards e seções */
+  --fundo-destaque: #EFF4FA;    /* Azul ultraclaro para fundos de seções alternadas */
+
+  /* Tipografia e Leitura */
+  --texto-principal: #1A202C;   /* Grafite escuro para alta legibilidade */
+  --texto-suave: #5A6A85;       /* Azul acinzentado para subtítulos e descrições */
+  --texto-inverso: #FFFFFF;     /* Texto sobre fundos escuros ou botões */
+
+  /* Bordas e Divisores */
+  --borda-suave: #E2E8F0;       /* Bordas discretas para caixas e separadores */
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+h1, h2{
+  font-family: 'Sora', sans-serif;
+  color: var(--azul-principal);
+}
+
+a{
+  text-decoration: none;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 3rem;
+  background-color: #F8F9FA;
+  align-items: center;
+}
+
+.lista-header{
+  display: flex;
+  list-style: none;
+  gap: 3rem;
+}
+
+.lista-header a{
+  text-decoration: none;
+  color: var(--azul-principal);
+  font-size: large;
+  font-weight: bold;
+}
+
+.btn-header{
+  background-color: #FBBB21;
+  padding: 0.5rem 0.7rem;
+  border-radius: 10px;
+}
+
+#logo{
+  height: 5rem;
+  width: auto;
+}
+
+
+body{
+  display: block;
+  background-color: #F8F9FA;
+}
+
+.sobre-imagem {
+    display: flex;
+    justify-content: center; 
+    margin-bottom: 32px;     
+}
+
+.sobre-imagem img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
